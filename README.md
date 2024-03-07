@@ -27,9 +27,9 @@
 
 This dataset contains extensive, long-term monitoring data on the Belvedere Glacier, a debris-covered glacier located on the east face of Monte Rosa in the Anzasca Valley of the Italian Alps. The data is derived from photogrammetric 3D reconstruction of the full Belvedere Glacier and includes:
 
-- dense point clouds obtained with Structure-from-Motion (SfM) covering the entire glacier body
-- high-resolution orthophotos
-- high-resolution DEMs
+- **dense point clouds** obtained with Structure-from-Motion (SfM) covering the entire glacier body
+- high-resolution **orthophotos**
+- high-resolution **DEMs**
 
 Since 2015, in-situ surveys of the glacier have been conducted annually using fixed-wing UAVs (until 2020) and quadcopters (2021-2022) to remotely sense the glacier and build high-resolution photogrammetric models. GCPs were established across the glacier and surveyed with topographic-grade GNSS receivers (Ioli et al., 2022).
 
