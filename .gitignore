@@ -1,5 +1,6 @@
 *.tif
 *.laz
 *.zip
+*.aux.xml
 support/
 ITALGEO05_E00_32632_0.2m_clipped.*
