@@ -1,0 +1,190 @@
+{
+  "year": 2023,
+  "license": "CC BY 4.0",
+  "contributors": [
+    {
+      "name": "Francesco Ioli",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": "0000-0001-7429-891X",
+      "email": "francesco.ioli@polimi.it"
+    },
+    {
+      "name": "Carlo De Gaetani",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": "0000-0002-9214-2588"
+    },
+    {
+      "name": "Federico Barbieri",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": ""
+    },
+    {
+      "name": "Federica Gaspari",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": "0000-0001-8502-7381"
+    },
+    {
+      "name": "Livio Pinto",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": "0000-0002-9559-4387"
+    },
+    {
+      "name": "Lorenzo Rossi",
+      "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+      "orcid": "0000-0001-6050-1972"
+    }
+  ],
+  "survey": {
+    "date": "24-26 Jul 2023",
+    "location": "Belvedere Glacier - Macugnaga (VB)",
+    "drone": {
+      "name": "DJI Matrice 300 RTK",
+      "producer": "DJI"
+    },
+    "camera": {
+      "name": "DJI Zenmuse P1",
+      "sensor_type": "FullFrame CMOS",
+      "sensor_size": "35,9x24",
+      "Mp": 45,
+      "pixel_size_micron": 4.4,
+      "image_size_px": {
+        "width": 8192,
+        "heigth": 5460
+      },
+      "lens": "DJI DL 35mm F2.8 LS ASPH",
+      "focal_length_mm": 35,
+      "notes": ""
+    },
+    "flight": {
+      "average_height_m": 200,
+      "average_GSD_m": 0.027,
+      "image_scale": 6000
+    },
+    "photogrammetric_block": {
+      "number_of_images": 1473,
+      "number_of_control_points": 23,
+      "number_checkpoints": 9,
+      "on_ground_accuracy": {
+        "rmse_m": {
+          "x": 0.04,
+          "y": 0.06,
+          "z": 0.06,
+          "global": 0.09
+        }
+      }
+    }
+  },
+  "data": {
+    "pcd": {
+      "file_name": [
+        "belv_2023_uav_pcd-0.laz",
+        "belv_2023_uav_pcd-1.las",
+        "belv_2023_uav_pcd-2.las",
+        "belv_2023_uav_pcd-3.las"
+      ],
+      "reference_system": "RDN2008 / UTM zone 32N",
+      "epsg": "7791",
+      "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+      "heigth_reference": "ellipsoidal",
+      "vertical_datum": "",
+      "file format": ".laz",
+      "data type": "pointcloud",
+      "points": 151748782,
+      "average_point_density_pt/m2": 18.6,
+      "average_point_spacing_m": 0.13,
+      "bounding_box": {
+        "min": [415097.97, 5088108.47, 1761.83],
+        "max": [416933.12, 5091461.05, 2345.46]
+      },
+      "RGB_colors": "yes",
+      "scalar_fields": {
+        "confidence": "Dense point cloud confidence level from Agisoft Metashape"
+      }
+    },
+    "orthophoto": {
+      "file_name": "belv_2023_uav_orthopohoto_20cm.tif",
+      "reference_system": "RDN2008 / UTM zone 32N",
+      "epsg": "7791",
+      "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+      "file format": ".tif",
+      "data type": "raster",
+      "dtype": "uint8",
+      "file_size__MB": 368.96,
+      "resolution_m": 0.2,
+      "width_px": 11683,
+      "heigth_px": 18597,
+      "extent": {
+        "min": [414576.2, 5087685.6],
+        "max": [416912.8, 5091405.0]
+      },
+      "origin": {
+        "x": 414576.2,
+        "y": 5091405.0
+      },
+      "bands": 4,
+      "band_description": {
+        "1": "Red",
+        "2": "Green",
+        "3": "Blue",
+        "4": "Alpha"
+      }
+    },
+    "dsm": {
+      "file_name": "belv_2023_uav_dsm_20cm.tif",
+      "reference System": "RDN2008 / UTM zone 32N",
+      "epsg": "7791",
+      "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+      "heigth_reference": "ellipsoidal",
+      "vertical_datum": "",
+      "file format": ".tif",
+      "data type": "raster",
+      "dtype": "float32",
+      "file_size__MB": 835.59,
+      "resolution_m": 0.2,
+      "width_px": 11683,
+      "heigth_px": 18597,
+      "extent": {
+        "min": [414576.2, 5087685.6],
+        "max": [416912.8, 5091405.0]
+      },
+      "origin": {
+        "x": 414576.2,
+        "y": 5091405.0
+      },
+      "bands": 1,
+      "band_description": {
+        "1": "Elevation"
+      }
+    },
+    "dsm_orthometric": {
+      "file_name": "belv_2023_uav_dsm_20cm_ortho.tif",
+      "reference System": "RDN2008 / UTM zone 32N",
+      "epsg": "7791",
+      "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+      "heigth_reference": "orthometric",
+      "vertical_datum": "ITALGEO05",
+      "file format": ".tif",
+      "data type": "raster",
+      "dtype": "float32",
+      "file_size__MB": 835.59,
+      "resolution_m": 0.2,
+      "width_px": 11683,
+      "heigth_px": 18597,
+      "extent": {
+        "min": [414576.2, 5087685.6],
+        "max": [416912.8, 5091405.0]
+      },
+      "origin": {
+        "x": 414576.2,
+        "y": 5091405.0
+      },
+      "bands": 1,
+      "band_description": {
+        "1": "Elevation"
+      }
+    }
+  },
+  "notes": "",
+  "related_pubblications": [],
+  "acknowledgments": ""
+}

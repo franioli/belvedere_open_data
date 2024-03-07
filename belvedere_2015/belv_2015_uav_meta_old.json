@@ -1,0 +1,97 @@
+{   
+    "name": "belv_2015_uav.laz",
+    "file format": ".laz",
+    "data type": "pointcloud",
+    "points": 67997364,
+    "average_point_density_pt/m2": 19.4,
+    "average_point_spacing_m": 0.13,
+    "reference System": "RDN2008 / UTM zone 32N",
+    "epsg": "7791",
+    "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+    "license": "CC BY 4.0",
+    "contributors": [
+        {
+            "name": "Francesco Ioli",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-7429-891X"
+        },
+        {
+            "name": "Carlo De Gaetani",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9214-2588"
+        },        
+        {
+            "name": "Federico Barbieri",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": ""
+        }, 
+        {
+            "name": "Federica Gaspari",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-8502-7381"
+        },
+        {
+            "name": "Livio Pinto",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9559-4387"
+        },
+        {
+            "name": "Lorenzo Rossi",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-6050-1972"
+        }          
+    ],
+    "date": "8 Oct 2015 + 23 Oct 2015",
+    "location": "Belvedere Glacier - Macugnaga (VB)",
+    "bounding_box": {
+		"min": [415097.97, 5088108.47, 1761.83], 
+		"max": [416933.12, 5091461.05, 2345.46]
+	},
+    "RGB colors": "yes",
+    "scalar Fields":{
+        "confidence": "Dense point cloud confidence level from Agisoft Metashape"
+    },
+    "drone": {
+        "name": "SenseFly eBee",
+        "producer": "SenseFly"
+    },
+    "camera": {
+      "name": "Canon PowerShot S110",
+      "sensor_type": "1/1.7'' CMOS",
+      "sensor_size": "7.44x5.58",
+      "Mp": 12.1,
+      "pixel_size_micron": 1.9,
+      "image_size_px": {
+        "width": 4000,
+        "heigth":  3000
+      },
+      "lens": "integrated",
+      "focal_length_mm": 5.2,
+      "notes": ""
+    },
+    "flight": {
+        "average_height_m": 175,
+        "average_GSD_m": 0.06,
+        "image_scale": 31800
+    },
+    "photogrammetric_block":{
+        "number_of_images": 2118,
+        "number_of_control_points": 23,
+        "number_checkpoints": 10,
+        "on_ground_accuracy": {
+            "rmse_m": {
+                "x": 0.04,
+                "y": 0.06,
+                "z": 0.08,
+                "global": 0.11
+            }
+        }
+    },
+    "related_pubblication": [
+        "Ioli, F.; Bianchi, A.; Cina, A.; De Michele, C.; Maschio, P.; Passoni, D.; Pinto, L. Mid-Term Monitoring of Glacier’s Variations with UAVs: The Example of the Belvedere Glacier. Remote Sens. 2022, 14, 28. https://doi.org/10.3390/rs14010028"
+    ],
+    "notes": "",
+    "Acknowledgments": "The monitoring activity was designed and carried jointly by the Department of Civil and Environmental Engineering (DICA) of Politecnico di Milano and the Department of Environment, Land and Infrastructure Engineering (DIATI) of Politecnico di Torino within the DREAM projects (DRone tEchnnology for wAter resources and hydrologic hazard Monitoring), involving teachers and students from Alta Scuola Politecnica (ASP) of Politecnico di Torino and Milano."
+}
+
+

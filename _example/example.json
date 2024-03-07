@@ -1,0 +1,59 @@
+{   
+    "name": "Pointcloud.las",
+    "file format": ".las",
+    "data type": "pointcloud",
+    "points": 5,
+    "spacing": 67676767,
+    "reference System": "RDN2008 / UTM zone 32N",
+    "epsg": "7791",
+    "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+    "contributors": [
+        {
+            "name": "Francesco Ioli",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-7429-891X"
+        },
+        {
+            "name": "Federico Barbieri",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": ""
+        }
+    ],
+    "date": "28 Jul 2021",
+    "location": "Macugnaga (VB)",
+    "bounding_box": {
+		"min": ["dati a caso controllare", 4988563.8150024414, 87.3489990234375], 
+		"max": [553791.04412841797, 4988983.9289550781, 507.46295166015625]
+	},
+    "drone": {
+        "name": "Matrice 300 RTK",
+        "producer": "DJI"
+    },
+    "camera": {
+      "sensor": "DJI P1",
+      "sensor_type": "CMOS Fullframe",
+      "sensor_size": "35.9x24mm",
+      "Mp": 45,
+      "pixel_size_micron": 4.4,
+      "image_size": {
+        "width": 8192,
+        "heigth": 5460
+      },
+      "lens": "DJI DL 35mm F2.8 LS ASPH",
+      "focal_length_mm": 35 
+    },
+    "flight": {
+        "average_height": 210,
+        "average_GSD": 0.04,
+        "image_scale": 6000
+    },
+    "data_quality": {
+        "rmse": {
+            "x": 43434343,
+            "y": 3453463632,
+            "z": 32838438,
+            "global": 324534535
+        },
+        "number_checkpoints": 745384
+    }
+  }

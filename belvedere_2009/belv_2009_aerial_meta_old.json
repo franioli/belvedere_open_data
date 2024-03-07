@@ -1,0 +1,94 @@
+{   
+    "name": "belv_2009_histo.laz",
+    "file format": ".laz",
+    "data type": "pointcloud",
+    "points": 81682329,
+    "average_point_density_pt/m2": 2.7,
+    "average_point_spacing_m": 0.3,
+    "reference System": "RDN2008 / UTM zone 32N",
+    "epsg": "7791",
+    "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+    "license": "CC BY 4.0",
+    "contributors": [
+        {
+            "name": "Francesco Ioli",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-7429-891X"
+        },
+        {
+            "name": "Carlo De Gaetani",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9214-2588"
+        },        
+        {
+            "name": "Federico Barbieri",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": ""
+        }, 
+        {
+            "name": "Federica Gaspari",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-8502-7381"
+        },
+        {
+            "name": "Livio Pinto",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9559-4387"
+        },
+        {
+            "name": "Lorenzo Rossi",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-6050-1972"
+        }          
+    ],
+    "date": "Oct 2009",
+    "location": "Belvedere Glacier - Macugnaga (VB)",
+    "bounding_box": {
+		"min": [413891.50, 5086642.46,  1471.02], 
+		"max": [418222.61, 5092706.01, 3849.96]
+	},
+    "RGB colors": "yes",
+    "scalar Fields":{
+    },
+    "drone": {
+        "name": "Aerial platform",
+        "producer": "-"
+    },
+    "camera": {
+      "name": "Z/I-Imaging DMC",
+      "sensor_type": "CCD sensor",
+      "sensor_size": "",
+      "Mp": 0,
+      "pixel_size_micron": 12,
+      "image_size_px": {
+        "width": 7680,
+        "heigth":  13824
+      },
+      "lens": "4 × f = 120 mm/f:4.0",
+      "focal_length_mm": 120.0,
+      "notes": ""
+    },
+    "flight": {
+        "average_height_m": 3800,
+        "average_GSD_m": 0.4,
+        "image_scale": 32000
+    },
+    "photogrammetric_block":{
+        "number_of_images": 11,
+        "number_of_control_points": 12,
+        "number_checkpoints": 6,
+        "on_ground_accuracy": {
+            "rmse_m": {
+                "x": 0.20,
+                "y": 0.22,
+                "z": 0.26,
+                "global": 0.39
+            }
+        }
+    },
+    "related_pubblication": [
+    "De Gaetani, C.I.; Ioli, F.; Pinto, L. Aerial and UAV Images for Photogrammetric Analysis of Belvedere Glacier Evolution in the Period 1977–2019. Remote Sens. 2021, 13, 3787. https://doi.org/10.3390/rs13183787"
+    ],
+    "notes": "",
+    "Acknowledgments": "The authors wish to thank CGR SpA for making the images available to them."
+}

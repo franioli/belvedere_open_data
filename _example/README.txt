@@ -1,0 +1,25 @@
+File .json per ogni nuvola con:
+- Autori (persone che hanno contribuito a data collection e processing)
+- Data
+- Sistema di riferimento
+- Luogo
+- Bounding Box
+- Tipo di dato (formato)
+- Drone
+- Camera
+	- Nome sensore
+	- Dimensione sensore mm
+	- Focale mm
+	- Dimensione pixel micron
+	- Dimensione immagini pixel
+- Caratteristiche volo
+	- Quota di volo
+	- GSD media
+	- Scala immagini
+- Qualità del dato
+	- RMSE x
+	- RMSE y
+	- RMSE z
+	- RMSE globale
+	- Numero di punti di controllo
+	- Densità punti

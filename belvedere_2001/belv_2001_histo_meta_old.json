@@ -1,0 +1,94 @@
+{   
+    "name": "belv_2001_histo.laz",
+    "file format": ".laz",
+    "data type": "pointcloud",
+    "points": 52080384,
+    "average_point_density_pt/m2": 1.6,
+    "average_point_spacing_m": 0.4,
+    "reference System": "RDN2008 / UTM zone 32N",
+    "epsg": "7791",
+    "proj4": "+proj=utm +zone=32 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs +type=crs",
+    "license": "CC BY 4.0",
+    "contributors": [
+        {
+            "name": "Francesco Ioli",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-7429-891X"
+        },
+        {
+            "name": "Carlo De Gaetani",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9214-2588"
+        },        
+        {
+            "name": "Federico Barbieri",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": ""
+        }, 
+        {
+            "name": "Federica Gaspari",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-8502-7381"
+        },
+        {
+            "name": "Livio Pinto",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0002-9559-4387"
+        },
+        {
+            "name": "Lorenzo Rossi",
+            "affiliation": "Department of Civil and Environmental Engineering, Politecnico di Milano (Italy)",
+            "orcid": "0000-0001-6050-1972"
+        }          
+    ],
+    "date": "6-11 Sep 2001",
+    "location": "Belvedere Glacier - Macugnaga (VB)",
+    "bounding_box": {
+		"min": [413891.50, 5086642.46,  1468.56], 
+		"max": [418222.61, 5092706.01, 3592.78]
+	},
+    "RGB colors": "yes",
+    "scalar Fields":{
+    },
+    "drone": {
+        "name": "Aerial platform",
+        "producer": "-"
+    },
+    "camera": {
+      "name": "Leica Wild RC30",
+      "sensor_type": "230 × 230 mm film",
+      "sensor_size": "230 × 230 mm film",
+      "Mp": 0,
+      "pixel_size_micron": 21,
+      "image_size_px": {
+        "width": 12098,
+        "heigth":  11144
+      },
+      "lens": "15/4 UAG-S",
+      "focal_length_mm": 153.928,
+      "notes": "Analog images digitalized by a photogrammetric scanner PhotoScan2000, developed by Z/I Imaging and Carl Zeiss with a resolution of 21 micron/px"
+    },
+    "flight": {
+        "average_height_m": 3500,
+        "average_GSD_m": 0.50,
+        "image_scale": 23000
+    },
+    "photogrammetric_block":{
+        "number_of_images": 11,
+        "number_of_control_points": 9,
+        "number_checkpoints": 8,
+        "on_ground_accuracy": {
+            "rmse_m": {
+                "x": 0.21,
+                "y": 0.24,
+                "z": 0.20,
+                "global": 0.38
+            }
+        }
+    },
+    "related_pubblication": [
+    "De Gaetani, C.I.; Ioli, F.; Pinto, L. Aerial and UAV Images for Photogrammetric Analysis of Belvedere Glacier Evolution in the Period 1977–2019. Remote Sens. 2021, 13, 3787. https://doi.org/10.3390/rs13183787"
+    ],
+    "notes": "",
+    "Acknowledgments": "The authors wish to thank CGR SpA for the digitalization of the historical datasets and for making them available to the authors."
+}
