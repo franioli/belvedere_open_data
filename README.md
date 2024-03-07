@@ -1,5 +1,7 @@
 # Belvedere Glacier Long-term Monitoring Open Data
 
+This repository contains the metadata of the Belvedere Glacier long-term monitoring dataset, which is available for download from **[Zenodo](https://zenodo.org/records/10781695)**
+
 ## Creators and Contributors
 
 - Ioli, Francesco<sup>1</sup>
